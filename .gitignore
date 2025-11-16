@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# bash Кэш и временные файлы React / Node
+/.cache
+/.parcel-cache
+/.vite
+/.next
+/.nuxt
+/dist
+
+# bash Секреты и ключи
+.env.staging
+.env.dev
+.env.*.backup
+/.eslintcache
+
+
+# markdown IDE / редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# lua Логи и дампы системы
+*.log
+*.gz
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Сборочные артефакты Windows
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# MacOS системные файлы
+.AppleDouble
+.LSOverride
+
